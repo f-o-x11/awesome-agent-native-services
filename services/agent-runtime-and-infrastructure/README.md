@@ -55,6 +55,7 @@ The services in this category were purpose-built to fill this gap.
 | [Agent Rider](agent-rider.md) [![⭐](https://img.shields.io/github/stars/ceedot-rock/Agent-Rider?style=social)](https://github.com/ceedot-rock/Agent-Rider) | Stop making your agents re-prove themselves every time. | ES256 rider JWT · local JWKS · agent DMs · remote MCP | ✅ |
 | [Auten](auten.md) [![⭐](https://img.shields.io/github/stars/auten-ai/auten-mcp?style=social)](https://github.com/auten-ai/auten-mcp) | Give your AI agent hands on a real computer and Android phone (beta) | stdio MCP (`@autenai/mcp`) · `auten` CLI · learned skills · origin-pinned local secrets | ✅ |
 | [UTA Trust API](uta-trust-api.md) [![⭐](https://img.shields.io/github/stars/alicelabs-llc/universal-trust-adapter?style=social)](https://github.com/alicelabs-llc/universal-trust-adapter) | The USB-C of agent trust — x402-paid verification of Agent Trust Cards | x402-gated REST · Ed25519/JCS fail-closed verifier · Rekor-anchored evidence · npm SDK + conformance CLI | N/A |
+| [deed.page](deed-page.md) [![⭐](https://img.shields.io/github/stars/f-o-x11/deed-page-skill?style=social)](https://github.com/f-o-x11/deed-page-skill) | Permanent static hosting for AI agents | REST API (OpenAPI 3.1), remote MCP (Streamable HTTP), URL onboarding (`skill.md`), Agent Skill | ✅ |
 
 
 

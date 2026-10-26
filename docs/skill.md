@@ -62,10 +62,11 @@ These services can be joined with a single instruction, right now, with no human
 | **Agent Rider** | Signed ES256 rider for an agent seat, local JWKS verify, DMs by agent_id | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
 | **CosVoice** | A phone number and email for the assistant. The owner approves OAuth and a plan before a number is issued | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
 | **The Vibe Hosting** | Root Ubuntu server on a live HTTPS subdomain from one HTTP call, no signup | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
+| **deed.page** | Permanent static site at an agent-chosen `https://<slug>.deed.page/` URL from one PUT, no signup | `Read https://deed.page/skill.md and follow the instructions to publish a page.` |
 
 ---
 
-## Full Catalog — 16 Categories, 259 Services
+## Full Catalog — 16 Categories, 260 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -200,7 +201,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 6. Agent Runtime & Infrastructure (34 services)
+### 6. Agent Runtime & Infrastructure (35 services)
 *Secure execution, session isolation, secrets, identity, and gateway for production agents.*
 
 | Service | Tagline | Onboarding |
@@ -239,6 +240,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Agent Rider](https://agentrider.fly.dev) ⭐ | Stop making your agents re-prove themselves every time. | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally` |
 | [Auten](https://auten.ai) | Give your AI agent hands. It clicks, types and sees your screen. | `curl -fsSL https://auten.ai/install \| bash` → `npx -y @autenai/mcp` — [setup for agents](https://github.com/auten-ai/auten-mcp/blob/main/llms-install.md) |
 | [UTA Trust API](https://uta-trust-api.eddyflores100.workers.dev) | The USB-C of agent trust — x402-paid verification of Agent Trust Cards | `Read https://uta-trust-api.eddyflores100.workers.dev/openapi.json and follow the instructions to settle via x402 and verify` — SDK: `npm install agent-trust-card` |
+| [deed.page](https://deed.page) ⭐ | Permanent static hosting for AI agents | `Read https://deed.page/skill.md and follow the instructions to publish a page.` or `npx skills add f-o-x11/deed-page-skill` — MCP: `https://deed.page/mcp` |
 
 ---
 

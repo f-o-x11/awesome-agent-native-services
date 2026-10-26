@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-10-25",
-  "generated_at": "2026-10-25",
+  "catalog_version": "2026-10-26",
+  "generated_at": "2026-10-26",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "dd0d2274aaae769b7d29510269a364b17ee47d30b6b7d2f7c4a264cc492801c9",
+      "value": "8116eee19ac26d9643d8a385eda43faae047522a0384a9e9ab70dd77a0071059",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -135,6 +135,7 @@
         "services/agent-runtime-and-infrastructure/cx.md",
         "services/agent-runtime-and-infrastructure/cyberdesk.md",
         "services/agent-runtime-and-infrastructure/db9.md",
+        "services/agent-runtime-and-infrastructure/deed-page.md",
         "services/agent-runtime-and-infrastructure/fiserv-agentos.md",
         "services/agent-runtime-and-infrastructure/google-ax.md",
         "services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md",
@@ -295,7 +296,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 259
+    "services": 260
   },
   "categories": [
     {
@@ -338,7 +339,7 @@
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 34
+      "service_count": 35
     },
     {
       "id": "agent-harnesses-and-control-planes",
@@ -4067,6 +4068,48 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/deed-page",
+      "slug": "deed-page",
+      "name": "deed.page",
+      "tagline": "Permanent static hosting for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://deed.page",
+      "repository": "https://github.com/f-o-x11/deed-page-skill",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/deed-page.md",
+      "source_path": "services/agent-runtime-and-infrastructure/deed-page.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://deed.page/skill.md and follow the instructions to publish a page.",
+        "url": "https://deed.page/skill.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "webhook",
+        "cli",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "https://deed.page, https://deed.page/llms.txt, https://deed.page/pricing and https://deed.page/openapi.json returned HTTP 200. MCP tools/list at https://deed.page/mcp returned 26 tools",
+      "verified_at": "2026-10-26",
+      "verification_sources": [
+        "https://deed.page",
+        "https://deed.page/llms.txt",
+        "https://deed.page/pricing",
+        "https://deed.page/openapi.json",
+        "https://deed.page/mcp"
+      ]
     },
     {
       "id": "agent-runtime-and-infrastructure/fiserv-agentos",
